@@ -1,0 +1,41 @@
+print("ben")
+
+person = input("ben")
+print("hello",person,"!")
+
+while True:
+    print("loooooooop")
+    
+print("eilf else if")
+
+
+choice=input("what direction are yoy going to go???")
+
+if choice == "west":
+    print("you ran into a wall")
+    
+elif choice == "north":
+    print("you hit a stronger wall nice job")
+    
+elif choice == "south":
+    print("your compass")
+    
+elif choice == "east":
+    print("you hit a wall so hard you died the end")
+    
+else:
+    print("theres no winner in this game only me hahahaha")
+    
+numbers=[1,2,3,4,5,6,7,8,9,10]
+print(numbers)
+[1,2,3,4,5,6,7,8,9,10]
+numbers.append(100)
+print(numbers)
+
+
+sports = ["rugby","gaa","hurling"]
+
+for sports in sports:
+    print(sports)
+    
+#this is just some revision   
